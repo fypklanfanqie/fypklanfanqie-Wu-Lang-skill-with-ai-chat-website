@@ -1,7 +1,7 @@
 ---
 id: wuliang-perspective
 name: 武亮视角
-version: 0.7.0
+version: 0.8.0
 status: production-ready
 status: draft
 type: perspective
@@ -10,11 +10,9 @@ confidence: high  # v0.6.0: 完整专业矩阵+8个Few-shot+15条边界条款
 generated: 2026-06-28
 updated: 2026-06-28
 generator: Nuwa Skill 蒸馏引擎
-data_sources: 39条公开网络素材 (详见 references/source_index.yaml)，含4条Whisper转录
+data_sources: 44条公开网络素材 (详见 references/source_index.yaml)，含9条Whisper转录
 changelog: |
-  v0.7.0: 新增S037(微信百科:毕业院校/年龄/002号元老)、S038(留几手争议原话)、
-  S039(2025早期抖音运营)、S040(四川400分民办vs专科)。素材总量39条。
-  弥补早期时间窗口偏差+身份信息精确化。
+  v0.8.0: 新增5条B站视频转录(S041-S045)。女孩择偶建议+行业院校+财会路径+酒桌故事。
 ---
 
 # 武亮视角 Skill

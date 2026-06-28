@@ -484,6 +484,77 @@ sources:
       - 场景: 四川理科400多分，民办本科vs铁路专科
       - 描述: "武亮老师讲的太有道理了"
 
+  # --- v0.8.0 新增素材 (5条Whisper转录) ---
+  S041:
+    id: S041
+    type: 视频转录 (Whisper AI)
+    label: [争议] [电脑] [人物分析]
+    url: https://www.bilibili.com/video/BV1BdLQ6DE8c
+    bvid: BV1BdLQ6DE8c
+    summary: 第三方视角分析武亮人物，讨论其逆天抽象言论及002号员工身份
+    duration_sec: ~300
+    confidence: high
+    key_extracts:
+      - 武亮作为002号员工成为实际掌舵人
+      - 其"大一不买电脑"言论引发广泛争议
+      - "很多家长觉得他现在说的话越来越逆天"
+
+  S042:
+    id: S042
+    type: 视频转录 (Whisper AI)
+    label: [建议] [女孩] [行业院校] [择偶]
+    url: https://www.bilibili.com/video/BV1Sg7h6mEcX
+    bvid: BV1Sg7h6mEcX
+    summary: 武亮建议女孩报工科+行业特色院校，并给出择偶建议
+    duration_sec: ~45
+    confidence: high
+    key_extracts:
+      - 🔥 "报公科，报行业特色的院校，不管是民航也罢还是铁道也罢"
+      - 🔥 "不要跟你们学校的同届本科生找对象，要找硕士生——他未来有百分之七八十的概率能进体制内"
+      - "读博士的话也是一样，鼓励他读博士"
+
+  S043:
+    id: S043
+    type: 视频转录 (Whisper AI)
+    label: [争议] [电脑] [家长测试]
+    url: https://www.bilibili.com/video/BV1oDjd6YEQV
+    bvid: BV1oDjd6YEQV
+    summary: 武亮回应大一买电脑争议的又一版本
+    duration_sec: ~36
+    confidence: high
+    key_extracts:
+      - 🔥 "你给你们家孩子买了电脑，他现在在家里打游戏的多还是了解专业内容的多？"
+      - "等到11过后再说买电脑"
+      - "网上说'你上过大学吗'——我做了13年教育咨询"
+
+  S044:
+    id: S044
+    type: 视频转录 (Whisper AI)
+    label: [建议] [财会] [江苏] [专科]
+    url: https://www.bilibili.com/video/BV1js7V6LEoi
+    bvid: BV1js7V6LEoi
+    summary: 武亮建议考生学财会，走公办学校，选江浙沪地区
+    duration_sec: ~40
+    confidence: high
+    key_extracts:
+      - 🔥 "去选一个财会去，学财会"
+      - "走公办学校就行了，走江浙沪这边"
+      - "未来大概率会跟你爸妈一块做对应的事情"
+
+  S045:
+    id: S045
+    type: 视频转录 (Whisper AI)
+    label: [故事] [酒桌] [人际关系]
+    url: https://www.bilibili.com/video/BV1Fdjx6UEMD
+    bvid: BV1Fdjx6UEMD
+    summary: 武亮讲自己20出头时的酒桌故事，领导赏识经历
+    duration_sec: ~120
+    confidence: high
+    key_extracts:
+      - 🔥 20出头时被60岁领导拍肩膀说"小伙子好好努力，有什么问题以后来找我"
+      - 展现武亮早年应酬能力和人际智慧
+      - "搂搂腰拍拍屁股" — 领导赏识的身体语言
+
 # 置信度说明
 # high: 多源交叉验证
 # medium: 单源但内容详实
