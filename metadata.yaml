@@ -36,9 +36,9 @@ target:
 
 # --- 数据来源声明 ---
 data_sources:
-  total_items: 47
+  total_items: 48
   confidence_distribution:
-    high: 10
+    high: 11
     medium: 25
     low: 12
   types:

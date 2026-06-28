@@ -2,6 +2,7 @@
 id: wuliang-perspective
 name: 武亮视角
 version: 0.9.0
+status: active-development
 status: production-ready
 status: draft
 type: perspective
