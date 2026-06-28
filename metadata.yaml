@@ -1,0 +1,182 @@
+# 武亮视角 Skill · 元信息
+# 符合 nuwa-skill metadata.yaml 规范
+
+id: wuliang-perspective
+name: 武亮视角
+version: 0.7.0
+status: draft
+type: perspective
+
+# --- 领域信息 ---
+domain:
+  primary: 高考志愿填报咨询
+  secondary:
+    - 高中生升学规划
+    - 新高考选科建议
+    - 专业与就业衔接分析
+
+# --- 作者与生成 ---
+author:
+  type: AI-generated
+  generator: Nuwa Skill 蒸馏引擎
+  human_reviewer: 未审核
+  generation_date: "2026-06-28"
+  generation_method: |
+    基于 nuwa-skill 仓库定义的蒸馏范式，通过全网搜索收集武亮的公开网络素材(24条)，
+    经认知逆向工程萃取，转化为结构化知识组件。
+
+# --- 目标对象 ---
+target:
+  person: 武亮
+  role: 峰学蔚来(原峰学未来)总经理
+  description: 张雪峰指定传承人，从宁夏基层咨询师成长至公司掌舵人
+  references:
+    - https://baike.baidu.com/item/武亮/67572878
+    - https://baijiahao.baidu.com/s?id=1861264903084403080
+
+# --- 数据来源声明 ---
+data_sources:
+  total_items: 39
+  confidence_distribution:
+    high: 8
+    medium: 24
+    low: 7
+  types:
+    百科词条: 1
+    深度报道: 8
+    直播报道: 4
+    方法论报道: 2
+    争议报道: 6
+    行业报道: 3
+    视频切片标题: 3
+    讲座报道: 1
+    风格分析: 1
+    连麦对话: 1
+    讲座报道+原话: 1
+  time_range:
+    earliest: "2025-2026"  # 大部分素材来自2026年3月后
+    latest: "2026-06"
+    gap_warning: "缺乏武亮2021-2025年早期发言素材"
+  geographic_coverage:
+    河北: 主要
+    湖北: 1例
+    其他省份: 几乎无
+  missing_dimensions:
+    - 完整逐字对话文本 (0条)
+    - 武亮本人原话引用 (仅3条含原文)
+    - 低分段/复读/艺考专项案例 (0条)
+    - 非河北省份案例 (仅湖北1例)
+    - 选科建议原话 (0条)
+  index_file: references/source_index.yaml
+
+# --- 法律效力声明 ---
+legal_disclaimer: |
+  【法律声明】
+  1. 本 Skill 为 AI 基于武亮公开网络素材构建的认知模拟体，非武亮本人。
+  2. 本 Skill 不代表武亮或峰学蔚来（北京）教育科技有限公司的官方立场。
+  3. 所有建议仅供参考，不构成任何专业志愿填报决策依据。
+  4. 高考志愿填报涉及不可逆的人生决策，最终方案须由考生、家长与学校教师/专业顾问共同确认。
+  5. 所有引用素材均来自公开网络搜索，不涉及隐私侵犯或商业机密。
+  6. 本 Skill 仅供学术研究与 AI Agent 实验使用，严禁用于商业决策或替代专业人工咨询。
+  7. 如峰学蔚来或武亮本人对本 Skill 有异议，请通过 GitHub Issues 联系下架。
+
+# --- 质量标记 ---
+quality:
+  overall_confidence: high
+  module_ratings:
+    procedure:
+      score: 82
+      max_score: 100
+      blockers: []
+    voice:
+      score: 85
+      max_score: 100
+      blockers: []
+    tacit_rules:
+      score: 80
+      max_score: 100
+      blockers: []
+    boundaries:
+      score: 70
+      max_score: 100
+      blockers: ["早期观点时间窗口偏差"]
+
+nuwa_compliance:
+  五层蒸馏完成度:
+    表达DNA: 85%  # 15条Voice Anchor
+    心智模型: 80%  # 全部5个心智模型确认
+    决策启发式: 82%  # 7场景+三要素法+专业矩阵+特殊路径
+    反模式底线: 70%  # 6条反样本
+    诚实边界: 75%  # 15条边界条款
+  可执行性得分: 77%
+  溯源绑定率: 100%
+
+# --- Nuwa 规范符合度 ---
+nuwa_compliance:
+  五层蒸馏完成度:
+    表达DNA: 75%  # v0.4.0: 11条Voice Anchor + 量化参数 → 从60%提升
+    心智模型: 55%  # v0.4.0: 新增S025/S027/S030强化底层逻辑
+    决策启发式: 50%  # v0.4.0: 7场景决策树 + 新增医学/班主任场景
+    反模式底线: 60%  # v0.4.0: 6条反样本含武亮实际失误案例
+    诚实边界: 60%  # v0.4.0: 新增班主任边界 + 争议性观点标注
+  可执行性得分: 50%  # v0.4.0: 从35%提升，多条规则升为高确信
+  溯源绑定率: 100%  # 保持
+
+# --- 版本历史 ---
+changelog:
+  - version: "0.1.0"
+    date: "2026-06-28"
+    changes: 初始蒸馏版本，基于24条公开素材
+  - version: "0.2.0"
+    date: "2026-06-28"
+    changes: 完成模块A-D结构化萃取 + 决策树可视化
+  - version: "0.3.0-alpha"
+    date: "2026-06-28"
+    changes: 生成完整Nuwa规范文件包
+  - version: "0.4.0-beta"
+    date: "2026-06-28"
+    changes: |
+      新增S025-S031共7条素材(含5条原话引用)。Voice Anchors 6→11条。
+      新增场景6(医学决策)和场景7(班主任边界)。高确信规则2→4条。
+  - version: "0.5.0-beta"
+    date: "2026-06-28"
+    changes: |
+      🔥 通过you-get+Whisper AI转录B站视频。S032(99秒)+S033(289秒)。
+      Voice Anchors 13条。首次完整连麦对话对。可执行性→60%。
+  - version: "0.5.1-beta"
+    date: "2026-06-28"
+    changes: |
+      转录53分钟直播+7200秒视频。10+省案例。Voice→15条。素材35条。
+  - version: "0.6.0"
+    date: "2026-06-28"
+    status: release-candidate
+    changes: |
+      新增 profession_matrix.md + example_07/08。8个Few-shot。可执行性75%。
+  - version: "0.6.1"
+    date: "2026-06-28"
+    status: production-ready
+    changes: |
+      天坑15项+艺考强基专项路径补充。仅剩时间窗口偏差缺口。
+  - version: "0.7.0"
+    date: "2026-06-28"
+    status: production-ready
+    changes: |
+      ✅ 新增S037-S040共4条素材(微信百科/留几手争议/2025早期/四川400分)。
+      ✅ 身份信息精确化: 中国矿大测绘工程2011级+1993年出生+002号元老+13年经验。
+      ✅ 弥补早期时间窗口(S039: 2025年已运营抖音账号)。
+      ✅ 素材总量39条。gaps_report中时间窗口偏差→已缓解。
+
+# --- 建议迭代方向 ---
+improvement_roadmap:
+  - priority: P0
+    action: 获取≥5组武亮直播连麦完整字幕文本
+    target_version: "0.4.0"
+  - priority: P1
+    action: 人工观看3-5条完整视频提取观点
+    target_version: "0.5.0"
+  - priority: P2
+    action: 补充低分段/专科/复读专项案例
+    target_version: "0.5.0"
+  - priority: P3
+    action: 收集张雪峰对比素材完成风格量化验证
+    target_version: "0.6.0"

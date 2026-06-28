@@ -1,0 +1,500 @@
+# 武亮 Skill 素材来源索引
+# 生成时间: 2026-06-28
+# 符合 nuwa-skill 溯源强制规范
+
+sources:
+  S001:
+    id: S001
+    type: 百科词条
+    label: [背景] [身份]
+    url: https://baike.baidu.com/item/武亮/67572878
+    summary: 武亮百度百科：宁夏农村出身，全村第一个重点大学学生，峰学蔚来总经理
+    confidence: high
+    key_extracts:
+      - "宁夏农村，是全村第一个考入重点大学的学生"
+      - "五年K12教育工作经验和八年上市企业工作经验"
+      - "在夸克高考志愿填报专场直播中讲解理工类专业与就业"
+
+  S002:
+    id: S002
+    type: 深度报道
+    label: [背景] [管理] [风格]
+    url: https://baijiahao.baidu.com/s?id=1861264903084403080
+    summary: 不外聘也不让老婆接管：武亮从基层拼出来的总经理路径
+    confidence: medium  # 含虚构元素
+    key_extracts:
+      - "不讲段子，只讲干货，不骂人、不拍桌子，就是稳稳妥妥把专业东西讲清楚"
+      - "2021年峰学蔚来成立时入职，仅为宁夏基层服务点的一名普通咨询师"
+      - "入职第一年就拿下西北区签约业绩第一"
+      - "发布千字长文缅怀张雪峰，称两人'情同父子、兄弟'"
+      - "三大承诺：保留所有账号作品、为公司著书立传、长大后把公司完整交予其女儿"
+
+  S003:
+    id: S003
+    type: 直播报道
+    label: [复播] [直播] [风格] [数据]
+    url: https://www.sohu.com/a/1007354730_122362512
+    summary: 峰学蔚来官方直播间复播，武亮常态化驻守
+    confidence: medium  # 含AI生成内容声明
+    key_extracts:
+      - "武亮将常态化驻守直播间，定期与观众面对面沟通"
+      - "全体教师始终恪守专业、严谨、真诚的服务准则"
+      - "首场直播开播5小时内累计观看人次突破600万，最高同时在线13万余人"
+
+  S004:
+    id: S004
+    type: 直播报道
+    label: [复播] [风格] [案例]
+    url: https://www.sohu.com/a/1006816260_121956424
+    summary: 张雪峰离世半月后复播详细报道
+    confidence: medium
+    key_extracts:
+      - "语气稳重而亲切"
+      - "整场直播以答疑和家长连麦为主"
+      - "从招生咨询到志愿填报、从学科走向到升学策略，一一回应观众问题"
+      - "不时有家长连麦现场讨论孩子的分数和专业倾向"
+
+  S005:
+    id: S005
+    type: 方法论报道
+    label: [案例] [物理类] [冲稳保]
+    url: https://www.toutiao.com/article/7624773946373685770/
+    summary: 河北600分考生升学规划全拆解
+    confidence: medium
+    key_extracts:
+      - "核心逻辑就是不浪费一分分数、不盲目冲高、就业优先、兼顾升学"
+      - "物理类600分：理工打底、医学备选、地域优先、专业为王"
+      - "历史类600分：冲名校、保铁饭碗"
+      - "临床医学5+3一体化是河北本地医生的'黄金入场券'"
+      - "坚决反对'为了学校读天坑专业'"
+
+  S006:
+    id: S006
+    type: 争议报道
+    label: [争议] [风格反面] [边界]
+    url: https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4185546292061671361
+    summary: 武亮直播翻车：光给答案不讲道理
+    confidence: medium
+    key_extracts:
+      - "面对大量粉丝提问，只给出简单、直接的答案，却不解释背后的逻辑"
+      - "网友直接吐槽：'听完了跟没听一样'，'不讲道理（逻辑）'"
+
+  S007:
+    id: S007
+    type: 争议报道
+    label: [争议] [价值观] [风格反面]
+    url: https://baijiahao.baidu.com/s?id=1865588102246092073
+    summary: 武亮言行引发众人不满：开口满口脏话、言语粗俗
+    confidence: low  # 单一来源且未验证
+    key_extracts:
+      - "教育的底色是悲悯与理智"
+      - "以前张雪峰老师在的时候，武亮就像个影子，专业、沉稳"
+
+  S008:
+    id: S008
+    type: 争议报道
+    label: [争议] [价值观] [金钱导向]
+    url: https://baijiahao.baidu.com/s?id=1868342670889060122
+    summary: 大学生活费1500+别买电脑 引发争议
+    confidence: medium
+    key_extracts:
+      - "建议大学生活费1500元、别买电脑"
+      - "代际认知鸿沟：'自律观'与'投资观'的冲突"
+
+  S009:
+    id: S009
+    type: 争议报道
+    label: [争议] [首秀] [风格]
+    url: https://baijiahao.baidu.com/s?id=1861267751657161429
+    summary: 武亮首播6分钟争议：频繁眨眼、答疑不展开
+    confidence: medium
+    key_extracts:
+      - "答案太碎太急，没有沿着提问往下搭桥梁"
+      - "重点没有形成闭环"
+
+  S010:
+    id: S010
+    type: 直播报道
+    label: [案例] [湖北] [文科]
+    url: https://www.sohu.com/a/1006883569_233813
+    summary: 武亮接棒首秀：湖北文科596分连麦
+    confidence: medium
+    key_extracts:
+      - "专注连麦解答家长的升学难题，涉及湖北文科596分的专业选择、就业地域分析等实际问题"
+      - "强调城市经济对设计类就业的影响"
+
+  S011:
+    id: S011
+    type: 行业报道
+    label: [商业模式] [AI] [普惠]
+    url: https://k.sina.cn/article_7880068204_1d5b04c6c068019vfu.html
+    summary: 武亮提出峰学需拥抱AI技术普惠
+    confidence: medium
+    key_extracts:
+      - "峰学需全面拥抱AI技术普惠"
+      - "高报行业过去依靠'信息差'盈利的传统模式在AI时代已近乎失效"
+
+  S012:
+    id: S012
+    type: 深度报道
+    label: [商业模式] [收费]
+    url: https://baijiahao.baidu.com/s?id=1861289594772550056
+    summary: 张雪峰退场后1万7的志愿填报课还香吗
+    confidence: medium
+    key_extracts:
+      - "服务费高达近两万元"
+      - "599元武亮主讲的视频课"
+      - "不裁员、不停课、不涨价"
+
+  S013:
+    id: S013
+    type: 深度报道
+    label: [管理] [传承] [承诺]
+    url: https://www.163.com/dy/article/KPS0M4220548I7U4.html
+    summary: 武亮发长文立誓待张姩菡成年归还公司
+    confidence: medium
+    key_extracts:
+      - "他发布千字长文缅怀张雪峰"
+      - "承诺保留所有账号作品、为公司著书立传、长大后把公司完整交予其女儿"
+
+  S014:
+    id: S014
+    type: 视频切片
+    label: [观点] [志愿后规划]
+    url: https://www.163.com/dy/article/KUJ5I5600534R3N6.html
+    summary: 武亮接棒张雪峰开讲：志愿填报后有两件事
+    confidence: medium
+    key_extracts:
+      - "志愿填报之后的人生规划"
+      - "第一件事：全力以赴，提升学历"
+      - "第二件事：找准行业方向"
+      - "无论孩子最终被哪个专业录取，未来的就业之路，其实都掌握在自己手中"
+
+  S015:
+    id: S015
+    type: 深度报道
+    label: [背景] [故事] [传承]
+    url: https://zhuanlan.zhihu.com/p/2025148287238385686
+    summary: 守业，护家，还权的武亮
+    confidence: medium
+    key_extracts:
+      - "你于我而言，是师、是友，更是如父如兄"
+      - "外人总说我们长得像父子"
+
+  S016:
+    id: S016
+    type: 视频切片标题
+    label: [案例] [低分段]
+    url: https://www.douyin.com/video/7637871868322112164
+    summary: 400分左右如何填报志愿，选什么专业和院校
+    confidence: low  # 仅标题，无内容
+
+  S017:
+    id: S017
+    type: 视频切片标题
+    label: [方法] [志愿填报流程]
+    url: https://www.douyin.com/video/7643768468176719113
+    summary: 武亮讲述峰学团队志愿填报审核流程
+    confidence: low  # 仅标题，无内容
+
+  S018:
+    id: S018
+    type: 视频切片标题
+    label: [方法] [选专业]
+    url: https://www.douyin.com/video/7631168470038349254
+    summary: 武亮老师手把手教你选专业和院校
+    confidence: low
+
+  S019:
+    id: S019
+    type: 视频切片标题
+    label: [观点] [焦虑]
+    url: https://www.douyin.com/video/7638933229235457343
+    summary: 武亮老师劝家长不要提前焦虑
+    confidence: low
+
+  S020:
+    id: S020
+    type: 视频切片标题
+    label: [观点] [26年变化]
+    url: https://www.douyin.com/video/7650071734851265907
+    summary: 武亮老师解析26年填报变化
+    confidence: low
+
+  # 以下为Phase 1中采集但未进入深度抓取的补充条目
+  S021:
+    id: S021
+    type: 深度报道
+    label: [管理] [团队]
+    url: https://www.163.com/dy/article/KPHM3F1N05119LOG.html
+    summary: 张雪峰公司新掌舵人为什么是他
+    confidence: medium
+
+  S022:
+    id: S022
+    type: 争议报道
+    label: [争议] [放假]
+    url: https://zhuanlan.zhihu.com/p/2033890156076344513
+    summary: 峰学蔚来五一放假8天被质疑不敬业
+    confidence: low
+
+  S023:
+    id: S023
+    type: 行业报道
+    label: [平台迁移]
+    url: https://baijiahao.baidu.com/s?id=1868300705459328465
+    summary: 峰学蔚来团队6月15日从抖音迁移至快手
+    confidence: medium
+
+  S024:
+    id: S024
+    type: 深度报道
+    label: [管理] [基层]
+    url: https://yunpan.plus/t/22725-1-1
+    summary: 从基层咨询师到掌舵人：33岁CEO武亮的职业跃迁
+    confidence: medium
+
+  # --- v0.4.0 新增素材 (Phase 2.5) ---
+  S025:
+    id: S025
+    type: 方法论+对话
+    label: [原话] [避坑] [普通家庭] [人工智能]
+    url: https://baijiahao.baidu.com/s?id=1861158024853855422
+    summary: 普通家庭选专业避坑：武亮首播硬核建议
+    confidence: medium
+    key_extracts:
+      - 原话: "普通家庭这个位置冲进去，输不起时间成本。"（针对冲AI专业）
+      - "让家长把'保底志愿'和路径规划先摆出来，再谈梦想方向"
+      - 偏文科填报: "城市消费压力、房租成本、当地对该专业的认可度、毕业后能否找到稳定的承接岗位"
+      - 三步判断法: 分数段怎么划 → 专业是否存在调剂滑坡 → 给出保底方案
+
+  S026:
+    id: S026
+    type: 风格分析+对话
+    label: [原话] [风格对比] [500分] [艺考]
+    url: https://www.163.com/dy/article/KPE40OA10556LE23.html
+    summary: 武亮与张雪峰直播风格深度对比
+    confidence: medium
+    key_extracts:
+      - 500分回答: "看分数"（被批评太简略，缺共情）
+      - 艺考回答: "不太建议""也可以考虑"（模糊摇摆）
+      - 催单原话: "名额只剩27个"
+      - 直播表现: "紧张、眨眼频繁（一分钟20+次）"
+      - 核心差距: "在完成任务" vs "和家长一起想办法解决问题"
+
+  S027:
+    id: S027
+    type: 连麦对话
+    label: [原话] [口语] [口腔医学] [河南]
+    url: https://www.toutiao.com/article/7626387718682984979/
+    summary: 武亮连麦河南妈妈：超一本线12分不敢报医学
+    confidence: medium
+    key_extracts:
+      - 原话: "去年口腔医学收分暴跌30分！卫健委刚公布基层医生缺口28万，这赛道闭眼冲！"
+      - 表现: "突然学起张雪峰拍桌子的架势"
+      - 场景: 河南妈妈，孩子超一本线12分却不敢报医学
+
+  S028:
+    id: S028
+    type: 直播报道
+    label: [原话] [政策] [连麦] [风格]
+    url: https://www.sohu.com/a/1003624821_122603047
+    summary: 武亮第一次直播被吐槽模仿张雪峰
+    confidence: medium
+    key_extracts:
+      - "有人问他某省2026年新政策中'同分排序优先级'如何确定，他直接找出红头文件的第17条第三款念了出来"
+      - "反复解释平行志愿中'服从调剂要不要勾选'这类细节"
+      - "语速快、信息密、看起来有点硬"
+      - 回应吐槽: "心里太痛实在幽默不起来"
+
+  S029:
+    id: S029
+    type: 争议报道+原话
+    label: [原话] [争议] [大学规划] [生活费]
+    url: https://www.163.com/dy/article/KV7AN14N05524FM1.html
+    summary: 武亮直播发表争议观点：大一不要买电脑
+    confidence: medium
+    key_extracts:
+      - 原话: "家长不要给学生买电脑，买了电脑后学生会沉迷游戏，疏于学习"
+      - 原话: "不用电脑，要写ppt现在手机AI就能写"
+      - 原话: "给男生的生活费不要超过1500一个月"
+      - 对比: 张雪峰原来说"没必要买更好的电脑，而不是不买"
+
+  S030:
+    id: S030
+    type: 讲座报道+原话
+    label: [原话] [边界] [班主任] [长沙]
+    url: https://www.sohu.com/a/1031463638_122018249
+    summary: 武亮长沙讲座：别向班主任透露报考想法
+    confidence: medium
+    key_extracts:
+      - 原话: "别把底牌亮给班主任，当心被忽悠！"
+      - 原话: "有些班主任手里的算盘，打的未必是孩子的一生，而是班级的升学率KPI"
+      - 原话: "政策资料一定一定一定要留底"
+      - 观点: 老师可能"连哄带骗"把临界生塞进名校冷门专业（生化环材），为学校数据"贴金"
+      - 立场: 班主任意见可以听，但绝不能盲从
+
+  S031:
+    id: S031
+    type: 行业报道
+    label: [AI] [行业变革] [普惠]
+    url: https://k.sina.cn/article_7879848900_1d5acf3c406802zlaa.html
+    summary: 武亮谈AI重塑志愿填报行业
+    confidence: medium
+    key_extracts:
+      - "AI正在重塑志愿填报行业：击穿了传统机构靠信息差盈利的壁垒"
+      - "倒逼从业者从'数据搬运工'升级为懂教育、懂孩子的人生规划师"
+      - "主导研发的AI志愿填报系统内部准确率已达92.7%"
+
+  # --- v0.5.0 新增素材 (Whisper AI 转录 B站视频) ---
+  S032:
+    id: S032
+    type: 视频转录 (Whisper AI)
+    label: [原话] [焦虑] [大学规划] [家庭]
+    url: https://www.bilibili.com/video/BV1t1746ME1c
+    bvid: BV1t1746ME1c
+    summary: 武亮怒斥大学生天天玩找不到工作，直播制造焦虑
+    duration_sec: 99
+    confidence: high  # AI转录，可复现
+    key_extracts:
+      - 🔥 原话: "你天天在那个地方玩，你活该找不到工作"
+      - 🔥 原话: "大学不等于有工作"
+      - 数据: "今年高考人数一千二百九十万人，能上本科的按百分之四十算，也有五百万人。五百万人里边找不到工作的有没有可能有一百万、两百万？"
+      - 建议: "一定要学会利用好你的学长学姐和老师资源"
+      - 警告: "你在大学里不要有想法是好事，但大学里边能不能落地？"
+
+  S033:
+    id: S033
+    type: 视频转录 (Whisper AI)
+    label: [原话] [连麦] [家庭关系] [地域选择] [风格]
+    url: https://www.bilibili.com/video/BV1hxj26fE3V
+    bvid: BV1hxj26fE3V
+    summary: 武亮怒怼连麦粉丝：东北母亲不让儿子去南方，武亮直接骂醒
+    duration_sec: 289
+    confidence: high  # AI转录，可复现
+    key_extracts:
+      - 🔥 原话: "让他滚，让他去南方去，别留在身边了"（对控制型母亲的直接回应）
+      - 🔥 原话: "所有的路不是规划出来的，所有的路是走出来的。路是让孩子走出来的"
+      - 🔥 原话: "爱人先爱己。孩子是从你身上掉下来的肉，你要爱孩子你得先爱自己"
+      - 🔥 原话: "儿孙自有儿孙福，留在身边没有意义"
+      - 观点: "特别是不听话的儿子，一定不要让他留在身边"
+      - 乐观主义: "在我们国家，在中国这社会，饿不死人。他学什么专业，只要不是懒惰极致，他都没问题"
+      - 理性提醒: "每年我们在报志愿的时候...家长妈妈们说如果付出可以换分数...但先爱自己"
+      - 场景: 东北母亲+成年儿子的地域选择冲突
+
+  S034:
+    id: S034
+    type: 视频报道
+    label: [原话] [人生观] [志愿观]
+    url: https://news.qq.com/rain/a/20260602V07JZ100
+    summary: 武亮：志愿只是决定大学四年在哪，不会决定未来40年
+    confidence: medium
+    key_extracts:
+      - 🔥 标题: "填报志愿，只是决定大学四年在哪，不会决定未来40年"
+
+  # --- v0.5.1 新增素材 (Whisper转录 53分钟+深度视频) ---
+  S035:
+    id: S035
+    type: 视频转录 (Whisper AI)
+    label: [原话] [连麦] [多省] [志愿填报] [完整直播]
+    url: https://www.bilibili.com/video/BV15T7v6TEm3
+    bvid: BV15T7v6TEm3
+    summary: 53分钟完整直播转录，武亮回答10+个省份家长/学生的连麦咨询
+    duration_sec: 3181
+    confidence: high
+    char_count: ~33000
+    key_extracts:
+      - 🔥 "填报志愿，只是决定大学四年在哪，不会决定未来40年" [S034交叉验证]
+      - 🔥 对789分清北级考生: "你这辈子把高校踩在脚下最高光的时刻...你在这时候不狂你干嘛？"
+      - 🔥 对想考公的女生: "国央企的岗位数量越来越少，你凭什么认为你就一定能考进去？"
+      - 🔥 "所有的工科都不好学。对于女孩子来讲，工科就业重工科"
+      - 保专业>冲学校: "家长，专业和学校你要选哪个？你总要选一个让步"
+      - 普通家庭 → 本科连读("本硕连读"): "如果你对自己有信心就去985，没信心就保本硕连读"
+      - 专科咨询: 口腔护理方向，建议"找医生谈对象"
+      - 西北政法法学卓越班推荐(坚持B+冲)
+      - 齐鲁工业大学计算机(产学研一体化)推荐
+      - 咨询案例覆盖: 广东、河北、河南、宁夏、辽宁、福建、新疆、天津、黑龙江、山东
+
+  S036:
+    id: S036
+    type: 视频转录 (Whisper AI)
+    label: [原话] [连麦] [方法论] [多省]
+    url: https://www.bilibili.com/video/BV1oW7s6yEYr
+    bvid: BV1oW7s6yEYr
+    summary: 武亮讲解高考志愿如何填报，含大量具体连麦案例
+    duration_sec: ~7200
+    confidence: high
+    char_count: ~23000
+    key_extracts:
+      - 🔥 "报本科特别是到不了985的话，看三个点: ①就业-哪些企业来招 ②推免资格-有没有硕士点 ③导师数量"
+      - 🔥 "别管什么学科评估，跟你本科没什么关系"
+      - 湖北610分→长沙理工/重油电池方向
+      - 新疆南疆→西邮通信(行业属性)优于北京信息科技
+      - 黑龙江422分→直接冲学校当兵，不报中外合作(省钱7-8万)
+      - 天津女生纠结→建议留天津理工/工业，不要去四川农大冲转专业
+      - 武亮与朱玉波连线: 讨论"读书无用论"、"文科有没有用"、"计算机就业现状"
+
+  # --- v0.7.0 新增素材 ---
+  S037:
+    id: S037
+    type: 百科词条
+    label: [背景] [身份] [教育]
+    url: https://baike.weixin.qq.com/v10006016303.htm
+    summary: 微信百科完整人物档案
+    confidence: high
+    key_extracts:
+      - 🔥 "1993年出生于宁夏西海固"
+      - 🔥 "毕业于中国矿业大学测绘工程专业（2011级校友）"
+      - 🔥 "编号002的初创元老" (入职峰学蔚来)
+      - "毕业后在银川从事高考志愿规划咨询，曾一天回复超两百条家长学生咨询，积累了超十三年教育行业经验"
+      - 晋升路径: "2022年宁夏大区校长 → 2023-2025苏州总部运营总监/副总裁"
+
+  S038:
+    id: S038
+    type: 争议报道+原话
+    label: [争议] [原话] [风格] [留几手]
+    url: https://www.sohu.com/a/1023192713_121948396
+    summary: 武亮硬刚留几手：称其"互联网茅坑里的王八"
+    confidence: medium
+    key_extracts:
+      - 🔥 原话: "互联网茅坑里的王八" (回怼留几手调侃张雪峰)
+      - 展现: 对恩师/张雪峰极度忠诚，被攻击时反应激烈
+      - 风格: 言辞激烈、不回避冲突
+
+  S039:
+    id: S039
+    type: 深度报道
+    label: [2025早期] [抖音运营]
+    url: https://zhuanlan.zhihu.com/p/2022725690886296304
+    summary: 武亮2025年开始运营抖音，讲高考规划和专业选择
+    confidence: medium
+    key_extracts:
+      - "2025年开始，武亮也开始运营自己的抖音账号了，讲高考规划、讲专业选择，粉丝已经攒了快13万"
+      - 2026年4月前累计发布作品约400个
+      - 描述: "峰学蔚来由'创始人驱动'向'团队驱动'过渡"
+
+  S040:
+    id: S040
+    type: 视频切片标题
+    label: [案例] [低分段] [四川] [民办vs专科]
+    url: https://www.douyin.com/video/7637861789313727482
+    summary: 四川理科400多分：民办本科还是铁路专科
+    confidence: low  # 仅标题
+    key_extracts:
+      - 场景: 四川理科400多分，民办本科vs铁路专科
+      - 描述: "武亮老师讲的太有道理了"
+
+# 置信度说明
+# high: 多源交叉验证
+# medium: 单源但内容详实
+# low: 仅标题/摘要/单一争议源
+
+# v0.4.0 缺口更新
+gaps:
+  - GAP-01: 无完整逐字对话文本（已有S025/S026/S027含原话片段，但仍缺完整对话对）→ 改善
+  - GAP-02: 无武亮本人拒绝回答/伦理边界的案例（S030提供班主任边界，但无拒答实例）
+  - GAP-03: 无选科建议的具体原话 → 仍缺失
+  - GAP-04: 无强基计划/综合评价等特殊路径观点 → 仍缺失
+  - GAP-05: 缺乏多省平行案例（现有河北+湖北+河南）→ 改善
+  - GAP-06: 口腔医学数据暴降30%的具体年份不清 [S027]
+  - GAP-07: AI系统92.7%准确率的评估标准不明 [S031]
