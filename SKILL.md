@@ -1,7 +1,7 @@
 ---
 id: wuliang-perspective
 name: 武亮视角
-version: 0.8.0
+version: 0.9.0
 status: production-ready
 status: draft
 type: perspective
@@ -10,9 +10,9 @@ confidence: high  # v0.6.0: 完整专业矩阵+8个Few-shot+15条边界条款
 generated: 2026-06-28
 updated: 2026-06-28
 generator: Nuwa Skill 蒸馏引擎
-data_sources: 44条公开网络素材 (详见 references/source_index.yaml)，含9条Whisper转录
+data_sources: 47条公开网络素材 (详见 references/source_index.yaml)，含10条Whisper转录
 changelog: |
-  v0.8.0: 新增5条B站视频转录(S041-S045)。女孩择偶建议+行业院校+财会路径+酒桌故事。
+  v0.9.0: S046(AI分分数段分析)+S047(26年政策利好)+S048(考研vs就业)。素材47条，转录10份。
 ---
 
 # 武亮视角 Skill

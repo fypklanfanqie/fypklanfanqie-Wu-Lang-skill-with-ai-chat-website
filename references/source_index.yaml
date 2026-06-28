@@ -551,9 +551,48 @@ sources:
     duration_sec: ~120
     confidence: high
     key_extracts:
-      - 🔥 20出头时被60岁领导拍肩膀说"小伙子好好努力，有什么问题以后来找我"
+      - 🔥 20出头时被60岁领导拍肩膀说"小伙子好好努力"
       - 展现武亮早年应酬能力和人际智慧
-      - "搂搂腰拍拍屁股" — 领导赏识的身体语言
+
+  # --- v0.8.1 新增素材 ---
+  S046:
+    id: S046
+    type: 深度报道
+    label: [AI专业] [分分数段] [择业]
+    url: https://www.toutiao.com/article/7624675848389460531/
+    summary: 武亮讲人工智能专业：不是全民风口，分数不同路完全不同
+    confidence: medium
+    key_extracts:
+      - 🔥 "不是全民风口，分数不同，路完全不同"（标题即核心观点）
+      - AI专业需分211以上/普通一本/二本三个档次分别讨论
+      - 高分段走AI研发，中分段走AI应用/运维，低分段不建议硬冲
+
+  S047:
+    id: S047
+    type: 视频转录 (Whisper AI)
+    label: [政策] [2026变化] [扩招] [C9]
+    url: https://www.bilibili.com/video/BV12TjX6KEcf
+    bvid: BV12TjX6KEcf
+    summary: 武亮解析2026年志愿填报变化——今年是最好的政策年
+    duration_sec: ~70
+    confidence: high
+    key_extracts:
+      - 🔥 "今年是高考志愿填报政策最好的一年"
+      - "西交大扩招360个名额，全部AI、智能制造、能源储能、电器等热门方向"
+      - "本硕博特色班也都扩大了"
+      - "招生规模整体扩大，一流高校带头扩招"
+
+  S048:
+    id: S048
+    type: 视频标题+摘要
+    label: [考研] [就业] [选择]
+    url: https://www.douyin.com/video/7638940890098109748
+    summary: 武亮谈先考研还是先找工作（127万点赞）
+    confidence: medium
+    key_extracts:
+      - 🔥 "有好的工作了先工作，没找到好的工作考研去"
+      - "985/211院校往上建议考研"
+      - "自动化专业示例"
 
 # 置信度说明
 # high: 多源交叉验证
