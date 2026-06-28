@@ -3,7 +3,7 @@
 
 id: wuliang-perspective
 name: 武亮视角
-version: 0.8.0
+version: 0.9.0
 status: draft
 type: perspective
 
@@ -36,11 +36,11 @@ target:
 
 # --- 数据来源声明 ---
 data_sources:
-  total_items: 39
+  total_items: 47
   confidence_distribution:
-    high: 8
-    medium: 24
-    low: 7
+    high: 10
+    medium: 25
+    low: 12
   types:
     百科词条: 1
     深度报道: 8
